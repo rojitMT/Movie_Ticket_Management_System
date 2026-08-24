@@ -3,33 +3,31 @@
 
 ### 1. Introduction
 
-The Movie Ticket Management System is designed to allow customers to browse movies, view showtimes, select seats, book tickets, and make online payments. Administrators can manage movies, showtimes, theaters, seats, pricing, and booking records.
+Functional requirements are statements of services and/or behaviors that the proposed system is expected to offer. The significant functional requirements that were found for the Movie Ticket Management System are listed below.
 
 ### 2. Functional Requirements
 
 | ID | Functional Requirement | Description |
 |---|---|---|
-| FR-01 | User Registration | The system shall allow customers to create an account. |
-| FR-02 | User Login | The system shall allow registered customers to securely log in. |
-| FR-03 | Browse Movies | The system shall allow customers to browse and filter available movies. |
-| FR-04 | View Movie Details | The system shall display details of a selected movie. |
-| FR-05 | View Showtimes | The system shall display available showtimes for movies. |
-| FR-06 | Select Seats | The system shall allow customers to select available seats from a seat map. |
-| FR-07 | Book Ticket | The system shall allow customers to book selected seats for a showtime. |
-| FR-08 | Prevent Double Booking | The system shall prevent already-booked seats from being selected again. |
-| FR-09 | Online Payment | The system shall allow customers to make online payments for bookings. |
-| FR-10 | Booking Confirmation | The system shall provide confirmation after a successful booking. |
-| FR-11 | Booking History | The system shall allow customers to view their previous bookings. |
-| FR-12 | Manage Movies | The administrator shall be able to add, update, and remove movie information. |
-| FR-13 | Manage Showtimes | The administrator shall be able to create and update movie showtimes. |
-| FR-14 | Manage Seats and Bookings | The administrator shall be able to manage seat availability and booking records. |
+| FR-01 | User Registration | Customers shall be allowed to register to the system. |
+| FR-02 | Secure Login | The system shall enable the registered customers to log in securely. |
+| FR-03 | Browse Movies | The system shall enable customers to view movies according to their choice of genre and language. |
+| FR-04 | View Movie Details | The system should enable users to obtain details of a selected movie. |
+| FR-05 | View Showtimes | The system will show the possible movie timings. |
+| FR-06 | Select Seats | The system shall provide customers the ability to choose seats from a seat map. |
+| FR-07 | Book Ticket | The system shall enable customers to book their movie tickets for the selected movies. |
+| FR-08 | Prevent Double Booking | The system should not allow the same seat to be reserved twice. |
+| FR-09 | Online Payment | The system shall take online payments and produce an e-ticket. |
+| FR-10 | Booking Confirmation | The system shall give a booking confirmation to the customer. |
+| FR-11 | Booking History | The system should enable customers to check the information of their previous bookings. |
+| FR-12 – FR-14 | Administrator Management | The system shall enable the administrators to control the movies, showtimes, and seat availability. |
 
 ### 3. Main Actors
 
-- **Customer:** Browses movies, selects showtimes and seats, books tickets, and makes payments.
-- **Administrator:** Manages movies, showtimes, seats, pricing, and bookings.
-- **Payment Gateway:** Processes online payment transactions.
+- **Customer:** Views movies, chooses seats, purchases tickets, and makes payments.
+- **Administrator/Theater Staff:** Manages movies, showtimes, theaters, seats, pricing, and bookings.
+- **Payment Gateway Provider:** Handles online payment transactions.
 
-### 4. Requirement Priority
+### 4. Summary
 
-Customer registration, login, movie browsing, showtime viewing, seat selection, booking, and payment are considered high-priority requirements because they form the main ticket-booking workflow.
+These requirements define the major services and behaviors expected from the Movie Ticket Management System. They provide the basis for the project's user stories, system design, and testing activities.

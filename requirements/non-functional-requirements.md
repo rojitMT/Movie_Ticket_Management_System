@@ -3,31 +3,27 @@
 
 ### 1. Introduction
 
-Non-functional requirements describe the quality attributes and constraints that the Movie Ticket Management System should satisfy. They focus on areas such as security, performance, usability, reliability, and maintainability.
+Non-functional requirements are those requirements that specify the quality attributes and constraints that the proposed system must meet. They are important because it is possible to have a system that performs the necessary functions but does not meet security, performance, usability, or reliability expectations (Sommerville, 2016).
+
+The project has determined the following major categories of NFRs.
 
 ### 2. Non-Functional Requirements
 
-| ID | Category | Requirement |
+| ID | Category | Non-Functional Requirement |
 |---|---|---|
-| NFR-01 | Security | User accounts and sensitive information shall be protected from unauthorized access. |
-| NFR-02 | Authorization | System functions shall be accessible according to the user's role and permissions. |
-| NFR-03 | Performance | The system should provide timely responses during normal booking activities. |
-| NFR-04 | Usability | The interface should be simple and easy for customers to navigate. |
-| NFR-05 | Reliability | Booking and payment operations should operate consistently without unnecessary failures. |
-| NFR-06 | Availability | The system should remain available during expected operating periods. |
-| NFR-07 | Integrity | Movie, seat, booking, and payment information should remain accurate and consistent. |
-| NFR-08 | Compatibility | The system should operate correctly on supported devices and environments. |
-| NFR-09 | Maintainability | The system should be structured so that future updates and maintenance can be performed efficiently. |
-| NFR-10 | Scalability | The system should be capable of supporting an increasing number of users and bookings. |
-| NFR-11 | Privacy | Customer and transaction information should be handled appropriately and protected from unauthorized disclosure. |
-| NFR-12 | Accessibility | The system should be usable by customers with different accessibility needs. |
+| NFR-01 | Security | Users' data and authentication must be kept secure from unauthorized access. |
+| NFR-02 | Authorization | Within the system, accessibility of system functions should be based on the user's role and permissions. |
+| NFR-03 | Performance | The system must respond quickly to normal booking operations. |
+| NFR-04 | Usability | The user interface should enable customers to easily use the movie and booking functions. |
+| NFR-05 | Reliability | There should be no arbitrary failures in booking and payment operations. |
+| NFR-06 | Availability | The system should be operational for customers and administrators during expected operating periods. |
+| NFR-07 | Integrity | Booking, seat, and payment details must be correct and up-to-date. |
+| NFR-08 | Compatibility | The system should work properly in supported environments. |
+| NFR-09 | Maintainability | The system should be designed in such a way that it is easy to change or maintain in the future. |
+| NFR-10 | Scalability | The system should be able to accommodate higher user, movie, and booking volumes. |
+| NFR-11 | Privacy | Information regarding customers and transactions must be processed properly. |
+| NFR-12 | Accessibility | The system should be usable by customers with various accessibility requirements. |
 
-### 3. Quality Priorities
+### 3. Summary
 
-The most important quality considerations for the system are:
-
-- **Security:** Protect customer accounts and transaction information.
-- **Performance:** Provide responsive booking and browsing operations.
-- **Usability:** Make the booking process simple and understandable.
-- **Reliability:** Maintain accurate booking and seat information.
-- **Maintainability:** Allow future changes and improvements to be made efficiently.
+These non-functional requirements define the major quality attributes and constraints of the proposed Movie Ticket Management System. They provide additional criteria for evaluating the system beyond its functional features.

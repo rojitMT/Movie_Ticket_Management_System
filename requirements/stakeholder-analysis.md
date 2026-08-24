@@ -3,26 +3,26 @@
 
 ### 1. Introduction
 
-Stakeholder analysis identifies the people and external entities that are affected by or interact with the Movie Ticket Management System. Understanding their needs helps determine the system requirements and priorities.
+The project identified four main groups of stakeholders who are directly or indirectly involved with the proposed Movie Ticket Management System.
 
 ### 2. Stakeholders
 
-| Stakeholder | Role | Main Needs / Interests |
+| Stakeholder | Description | Main Needs / Interests |
 |---|---|---|
-| Customer | Primary system user | Browse movies, view showtimes, select seats, book tickets, make payments, and view booking history. |
-| Administrator / Theater Staff | System manager | Manage movies, showtimes, theaters, seats, pricing, and booking records. |
-| Payment Gateway Provider | External service | Process secure and reliable online payment transactions. |
-| Project Team | Development and management | Analyze requirements, design the system, prepare tests, and manage project documentation. |
+| Customer | Users who view movies, choose seats, purchase tickets, and pay for them. | Easy movie browsing, seat selection, ticket booking, secure payment, and booking confirmation. |
+| Administrator / Theater Staff | Users who manage movies, showtimes, theaters, seats, pricing, and bookings. | Efficient management of movies, showtimes, seats, pricing, and booking records. |
+| Payment Gateway Provider | An outside service that handles online payments. | Secure and reliable processing of payment transactions. |
+| Project Team | Stakeholders who analyze, design, test, and document the proposed system. | Clear requirements, consistent design, effective testing, and organized project documentation. |
 
-### 3. Stakeholder Priorities
+### 3. Stakeholder Importance
 
-**Customers** have the highest priority because they are the primary users of the system. Their main concerns are ease of use, accurate seat availability, reliable booking, secure payment, and confirmation.
+**Customers** are the primary users of the system. Their needs help determine the major functional requirements and priorities of the system.
 
-**Administrators/Theater Staff** require efficient management of movies, showtimes, seats, and bookings.
+**Administrators/Theater Staff** are responsible for managing the information and operations required to provide movie-ticket services.
 
-**Payment Gateway Provider** is important for completing the payment process securely and reliably.
+The **Payment Gateway Provider** is an external stakeholder that supports the online payment process.
 
-**Project Team** is responsible for ensuring that stakeholder needs are correctly converted into requirements, system designs, test cases, and project documentation.
+The **Project Team** is responsible for analyzing stakeholder needs and converting them into requirements, designs, test cases, and project documentation.
 
 ### 4. Requirement-Gathering Techniques
 
@@ -34,4 +34,4 @@ The project considered the following techniques for identifying stakeholder need
 
 ### 5. Summary
 
-Stakeholder analysis provided the foundation for identifying functional and non-functional requirements. The identified needs were then used to develop user stories, system designs and test cases.
+The team's awareness of these stakeholders enabled them to identify the key functional requirements of the system and priorities for the features that the system should provide. The full stakeholder analysis is documented as part of the project and included in the evidence on GitHub.
